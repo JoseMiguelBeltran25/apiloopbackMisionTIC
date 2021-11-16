@@ -4,7 +4,7 @@ import {juggler} from '@loopback/repository';
 const config = {
   name: 'Mongo',
   connector: 'mongodb',
-  url: '',
+  url: 'mongodb://Admin_JoseMiguel25:RBvQb70bOPOJWTBh@misiontic-shard-00-00.nwdzv.mongodb.net:27017,misiontic-shard-00-01.nwdzv.mongodb.net:27017,misiontic-shard-00-02.nwdzv.mongodb.net:27017/test?replicaSet=atlas-cl6qtk-shard-0&ssl=true&authSource=admin',
   host: '',
   port: 0,
   user: '',

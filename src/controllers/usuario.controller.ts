@@ -55,9 +55,9 @@ export class UsuarioController {
     let p = await this.usuarioRepository.create(usuario);
 
     // Notifiamos al usuario por telefono y cambiar la url por send_sms
-    let destino = usuario.telefono;
+    //let destino = usuario.telefono;
     // Notificamos al usuario por correo
-    //let destino = usuario.correo;
+    let destino = usuario.correo;
     let asunto = 'Registro de usuario en plataforma';
     let contenido = `Hola, ${usuario.nombre} ${usuario.apellidos} su contraseña en el portal es: ${clave}`
     axios({
